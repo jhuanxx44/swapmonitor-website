@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - SwapMonitor</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #333;
+        }
+        h1 { font-size: 2rem; margin-bottom: 10px; }
+        .app-name { font-weight: 600; color: #007aff; }
+        .last-updated { color: #666; font-size: 0.875rem; margin-bottom: 30px; }
+        p { margin-bottom: 15px; }
+        .contact { margin-top: 40px; padding: 20px; background: #f5f5f5; border-radius: 8px; }
+        .contact a { color: #007aff; }
+    </style>
+</head>
+<body>
+    <h1>Support</h1>
+    <p class="last-updated">Last updated: May 10, 2026</p>
+
+    <p><span class="app-name">SwapMonitor</span> is a lightweight macOS menu bar utility for developers.</p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <p><strong>Q: Does SwapMonitor collect any data?</strong><br>
+    A: No. SwapMonitor runs entirely offline and does not collect any personal information or usage data.</p>
+
+    <p><strong>Q: How does SwapMonitor detect orphan processes?</strong><br>
+    A: It identifies processes with PPID = 1 that match known dev tool patterns (node, npm, vite, webpack, etc.).</p>
+
+    <p><strong>Q: Is SwapMonitor safe to use?</strong><br>
+    A: Yes. It only reads system information and process data using native macOS APIs. It never sends data anywhere.</p>
+
+    <p><strong>Q: How often does SwapMonitor update?</strong><br>
+    A: By default, it refreshes every 5 seconds. You can adjust this in Settings.</p>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>For issues, feature requests, or questions:</p>
+        <p><a href="mailto:support@swapmonitor.app">support@swapmonitor.app</a></p>
+    </div>
+</body>
+</html>
